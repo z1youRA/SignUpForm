@@ -107,7 +107,6 @@ a:visited {
 }
 
 .main {
-    border: 2px solid;
     background-color: #2d333c;
     width: 65%;
     display: flex;
