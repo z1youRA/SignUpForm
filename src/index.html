@@ -4,11 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SignUpForm</title>
     <script src="./script.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="side-block">
+        <div class="header">
+            <img src="./img/odin-lined.png">ODIN</div>
+        <div class="footer">Photo by <a href="https://unsplash.com/@ameenfahmy">Ameen Fahmy</a></div>
+    </div>
+    <div class="main">
+        <div class="intro">
+            <p>This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi!
+                Sign up now to get started.</p><br>
+            <p>You know you want to.</p>
+            
+            </div>
+        <form action="">
+            <div>
+                <p class="form-title">Let's do this</p>
+                <div class="form-content">
+                    <div class="input-block"><label for="first-name">FIRST NAME</label><input type="text" name="first-name"></div>
+                    <div class="input-block"><label for="last-name">LAST NAME</label><input type="text" name="last-name"></div>
+                    <div class="input-block"><label for="email">EMAIL</label><input type="email" name="email"></div>
+                    <div class="input-block"><label for="phone-number">PHONE NUMBER</label><input type="tel" name="phone-number"></div>
+                    <div class="input-block"><label for="password">PASSWORD</label><input type="password" name="password"></div>
+                    <div class="input-block" ><label for="confirm-password">CONFIRM PASSWORD</label><input type="password" name="confirm-password"></div>
+                </div>
+            </div>
+            <div class="form-button">
+                <button type="submit">Create Account</button>
+            </div>
+        </form>
+        <div class="login">Already have an account? <a href=""> Log in</a> </div>
+    </div>
 </body>
 </html>
